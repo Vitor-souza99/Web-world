@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+*{
+    border: none;
+    margin: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+.NavBar{
+    display: inline-flex;
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    height: 8vh;
+}
+.WebWord{
+    position: relative;
+    left: 5%;
+    width: 13.5%;
+    height: 10vh;
+}
+.img-WebWord{
+    position: relative;
+    top: 2vh;
+    width: 75%;
+}
+.Socials{
+    display: inline-flex;
+    width:16%;
+    height: 8vh;
+    position: absolute;
+    left: 80%;
+}
+.carousel-inner{
+    position: relative;
+}
+.carousel-item{
+    position: relative;
+}
+.fonteimg h1{
+    color: rgb(24, 97, 11);
+    font-family: 'Pattaya', sans-serif;
+    position: absolute;
+    z-index: 9999;
+    font-size: 55px;
+}
+.fonteimg{
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    z-index: 9999;
+}
+
+
+.Socials-Buttons1{
+    width: 25%;
+    height: 8vh;
+    
+}
+.Socials-Buttons2{
+    width: 25%;
+    height: 8vh;
+   
+}
+.Socials-Buttons3{
+    width: 25%;
+    height: 8vh;
+   
+}
+.Socials-Buttons4{
+    width: 25%;
+    height: 8vh;
+}
+
+.Imgs1{
+    position: relative;
+    left: 15%;
+    top: 1vh;
+    width: 60%;
+    height: 55%;
+}
+.Imgs2{
+    position: relative;
+    left: 15%;
+    top: 1vh;
+    width: 60%;
+}
+.Imgs3{
+    position: relative;
+    left: 15%;
+    top: 1.3vh;
+    width: 55%;
+    height: 58%;
+}
+.Imgs4{
+    position: relative;
+    left: 15%;
+    top: 1vh;
+    width: 60%;
+}
+
+.Slider{
+    
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+@keyframes Trocarslider{
+    to{
+
+    }
+    from{
+        
+    }
+}
+.header-2{
+    background-color: white;
+    width: 100%;
+    height: 12vh;
+    border-bottom: 3px white;
+}
+.menu ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+.menu ul li a{
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+   }
+   .menu{
+    width: 70%;
+    float: left;
+}
+.busca{
+    text-align: center; 
+     width: 30%;
+    float: right; 
+    padding: 1.5%;
+ }
+ .busca input{
+    background-image: url('./img/icone-search.png'); 
+    background-repeat: no-repeat;
+    background-position: 95%;
+    margin-top: 4px;
+    height: 25px;
+    width: 190px;
+    padding: 7px;
+    border: 1.8px solid #d6d6d6;
+}
+.fonte-1{
+    text-align: center;
+    color:rgb(96, 100, 102);
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.fonte-2{
+   width: 80%;
+   height: 15vh;
+   left: 10%;
+   position: relative;
+}
+.fonte2-1{
+    text-align: center;
+    color: rgb(112, 110, 110);
+}
+.fonteimg{
+    position: relative;
+    top: 40%;
+}
+.fonteimg1{
+    position: absolute;
+    top: 40%;
+    color: red;
+}
+.menu-container3imgs{
+    background-color: rgba(209, 225, 240, 0.842);
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    
+    
+}
+.menu-3imgs{
+display: inline-flex;
+border: black solid 1px;
+}
+.menu-3imgs_1{
+    
+    width: 33%;
+    height: 70vh;
+    position: absolute;
+    top: 0vh;
+}
+.menu-3imgs_2{
+   
+    width: 33%;
+    height: 70vh;
+    position: absolute;
+    top: 0vh;
+    left: 33%;
+}
+.menu-3imgs_3{
+    
+    width: 33%;
+    height: 70vh;
+    position: absolute;
+    top: 0vh;
+    left: 66%;
+}
+.img3c_1{
+    position: absolute;
+    height: 40vh;
+    width: 80%;
+    left: 10%;
+    top: 4%;
+}
+.imgc_1palavra{
+    position: absolute;
+    top: 60%;
+}
+.menu-3imgs_1 h3{
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    color: #606466;
+}
+.img3c_2{
+    position: absolute;
+    height: 40vh;
+    width: 80%;
+    left: 10%;
+    top: 16%;
+}
+.menu-3imgs_2 h3{
+    position: absolute;
+    top: 72%;
+    text-align: center;
+    color: #606466;
+}
+.img3c_3{
+    position: absolute;
+    height: 38vh;
+    width: 80%;
+    left: 10%;
+    top: 2%;
+}
+.menu-3imgs_3 h3{
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    color: #606466;
+}
